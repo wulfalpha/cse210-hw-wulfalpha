@@ -1,0 +1,35 @@
+|              Class Scripture              |
+|-------------------------------------------|
+|           wordlist: List<Word>            |
+|       scripturereference: Reference       |
+|-------------------------------------------|
+| Scripture(Reference, String): Constructor |
+|               CreateWords()               |
+|          GetScripture(): string           |
+|           HasWordsLeft(): bool            |
+|               RemoveWords()               |
+
+
+|                                 Class Reference                                 |
+|                                       <c>                                       |
+|---------------------------------------------------------------------------------|
+|                                  book: string                                   |
+|                                 chapter: string                                 |
+|                                 verseStart: int                                 |
+|                                  verseEnd: int                                  |
+|---------------------------------------------------------------------------------|
+| Reference(String: _book, String _chapter, String _singleVerse): Constructor (1) |
+|           Reference(String, Int, Int): Constructor (Multiple Verses)            |
+|                             GetReference(): string                              |
+
+
+|         Class Word          |
+|             <c>             |
+|-----------------------------|
+|        word: string         |
+|       isHidden: bool        |
+|-----------------------------|
+|     Word(string _word)      |
+|     GetIsHidden(): bool     |
+| SetIsHidden(bool _isHidden) |
+|       GetWord(): bool       |

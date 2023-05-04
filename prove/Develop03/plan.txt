@@ -1,0 +1,16 @@
+1. What does the program do?
+Program assists in memorizing verses. It does this by randomly removing words one at a time until the entire verse is blanked.
+2. What user inputs does it have?
+Press Enter or type quit. (empty string or specific string.)
+3. What output does it produce?
+As above it produces verses and blanks them out word by word until the user has had a chance to memorize the entire passage.
+4. How does the program end?
+Program ends in two ways. Eithr the last word is blanked out or the user types quit at any time.
+
+Each Class performs part of the whole:
+Class Scripture displayes the scripture verse by verse and hides the words as the user moves through the program.
+
+Class reference randomly selects from a map of references and serves them up.
+
+class Word hides words randomly and knows how many words are hidden.
+(Posible improvement: put hidden words in a map so user can type them in? if they get the word right it should appear and then disseappear again for a reminder.)
