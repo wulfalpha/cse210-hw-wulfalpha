@@ -5,7 +5,7 @@ Press Enter or type quit. (empty string or specific string.)
 3. What output does it produce?
 As above it produces verses and blanks them out word by word until the user has had a chance to memorize the entire passage.
 4. How does the program end?
-Program ends in two ways. Eithr the last word is blanked out or the user types quit at any time.
+Program ends in two ways. Either the last word is blanked out or the user types quit at any time.
 
 Each Class performs part of the whole:
 Class Scripture displayes the scripture verse by verse and hides the words as the user moves through the program.
