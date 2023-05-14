@@ -1,0 +1,23 @@
++------------------------+        +------------------------+        +------------------------+
+|        Activity        |        |       Breathing         |        |         Listing         |
+|           <c>          |        |           <c>            |        |           <c>            |
++------------------------+        +------------------------+        +------------------------+
+|   Int: _duration       |        |   Int: _duration        |        |   Int: _duration        |
+| String: _greeting      |        +------------------------+        +------------------------+
+|                        |        |    Spinner(_duration)   |        |    Spinner(_duration)   |
++------------------------+        |   String: _Message      |        | List<String>: _prompts  |
+                                  +------------------------+        |   String: _response     |
+                                                                     +------------------------+
+                                           
++------------------------+                                      
+|       Reflection       |                                       
+|           <c>          |                                       
++------------------------+                                       
+|   Int: _duration       |                                       
+| String: _greeting      |                                       
+|                        |                                       
++------------------------+                                       
+|    Spinner(_duration)  |                                       
+| List<String>: _prompts  |                                       
+| Int: _countdown        |                                       
++------------------------+

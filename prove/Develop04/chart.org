@@ -1,0 +1,56 @@
+#+title: Chart
+#+author: Andrew Davidson
+#+email: andrw.davidson@wulfalpha.com
+
+* Base Classes
+
+|     Activity      |
+|        <c>        |
+|-------------------|
+|   Int: _seconds   |
+| String: _Activity |
+|-------------------|
+| Class: Breathing  |
+|  Class: listing   |
+| Class: reflection |
+| String: _greeting |
+
+|        Spinner         |
+|          <c>           |
+|------------------------|
+|     Int: _seconds      |
+|------------------------|
+| List<strings> spinners |
+|    String: spinner     |
+
+* Sub Classes
+
+** Activity
+
+|     Breathing      |
+|        <c>         |
+|--------------------|
+|   int: _duration   |
+|--------------------|
+| Spinner(_duration) |
+|  String: _Message  |
+
+|       Listing        |
+|         <c>          |
+|----------------------|
+|    int: _duration    |
+|----------------------|
+|  Spinner(_duration)  |
+| List<Strings> prompt |
+|  String: _response   |
+
+|      Reflection      |
+|         <c>          |
+|----------------------|
+|    int _duration     |
+|----------------------|
+|  Spinner(_duration)  |
+| List<Strings> prompt |
+| Int: _Countdown      |
+
+* Main Class
