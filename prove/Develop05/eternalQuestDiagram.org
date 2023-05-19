@@ -1,0 +1,63 @@
+#+title: Eternal Quest Diagram
+
+* Base Classes
+|----------------------|
+|      Class Goal      |
+|         <c>          |
+|----------------------|
+|    String: _name     |
+| String: _description |
+|     int: _points     |
+|----------------------|
+
+|----------------|
+| GoalManager    |
+|----------------|
+| _goals         |
+| _currentLevel  |
+|----------------|
+| AddGoal()      |
+| CompleteGoal() |
+|----------------|
+
+|----------------|
+| LevelSystem    |
+|----------------|
+| int: _level    |
+|----------------|
+| IncreaseLevel() |
+|----------------|
+
+|--------------|
+| FileIO       |
+|--------------|
+| _fileName    |
+|--------------|
+| SaveToFile() |
+|--------------|
+
+* Sub classes - extends goals
+|----------------------------|
+| Class Standard Goal : Goal |
+|----------------------------|
+| String: _name              |
+| String: _description       |
+| Int: _points               |
+|----------------------------|
+
+|--------------------------|
+| Class EternalGoal : Goal |
+|--------------------------|
+| String: _name            |
+| String: _description     |
+| Int: _points             |
+|--------------------------|
+
+|----------------------------|
+| Class ChecklistGoal : Goal |
+|----------------------------|
+| String: _name              |
+| String: _description       |
+| Int: _points               |
+| Int: _stage                |
+|----------------------------|
