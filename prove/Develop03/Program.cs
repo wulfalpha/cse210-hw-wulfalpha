@@ -10,6 +10,7 @@ class Program
 
         // Main loop of the program
         while (scripture.HasHiddenWords())
+        
         {
             // Clear the console and display the reference and text of the verse
             Console.Clear();

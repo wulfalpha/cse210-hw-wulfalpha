@@ -1,0 +1,66 @@
+#+title: Polymorphism
+#+author: Andrew Davidson
+#+email: andrew.davidson@wulfalpha.com
+
+* Base Class
+|---------------------------------------------------------|
+|                         vehicle                         |
+|                           <c>                           |
+|---------------------------------------------------------|
+|                      _vin: string                       |
+|                      _make: string                      |
+|                     _model: string                      |
+|                       _year: int                        |
+|                      _milage: int                       |
+|---------------------------------------------------------|
+| Vehcile: Constructor (vin, make, model, year, mileage,) |
+|                   Vin: Getter, Setter                   |
+|                  Make: Getter, Setter                   |
+|                  Model: Getter, Setter                  |
+|                  Year: Getter, Setter                   |
+|                 Mileage: Getter, Setter                 |
+|---------------------------------------------------------|
+
+* Subclasses
+|---------------------------|
+|       Car : Vehicle       |
+|            <c>            |
+|---------------------------|
+|      _numDoors: int       |
+|---------------------------|
+| NumDoors: Getter, Setter  |
+|---------------------------|
+
+|---------------------------|
+|      Truck : Vehicle      |
+|            <c>            |
+|---------------------------|
+|      _numDoors: int       |
+|    _truckType: string     |
+|---------------------------|
+| NumDoors: Getter, Setter  |
+| TruckType: Getter, Setter |
+|---------------------------|
+
+|-------------------------------|
+|         SUV : Vehicle         |
+|              <c>              |
+|-------------------------------|
+|        _numDoors: int         |
+|      _numPassengers: int      |
+|-------------------------------|
+|   NumDoors: Getter, Setter    |
+| NumPassengers: Getter, Setter |
+|-------------------------------|
+
+* Program
+
+|-------------|
+|   Program   |
+|     <c>     |
+|-------------|
+| Main method |
+|-------------|
+
+* Description:
+In our final visit to this program our fictional dealership wants us to put the finishing touches on this program. How can we reuse the code in the classes to make a powerful database program for them?

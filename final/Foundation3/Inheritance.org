@@ -1,0 +1,66 @@
+#+title: Inheritance
+#+author: Andrew Davidson
+#+email: andrew.davidson@wulfalpha.com
+
+* Base Class
+|---------------------------------------------------------|
+|                         vehicle                         |
+|                           <c>                           |
+|---------------------------------------------------------|
+|                      _vin: string                       |
+|                      _make: string                      |
+|                     _model: string                      |
+|                       _year: int                        |
+|                      _milage: int                       |
+|---------------------------------------------------------|
+| Vehcile: Constructor (vin, make, model, year, mileage,) |
+|                   Vin: Getter, Setter                   |
+|                  Make: Getter, Setter                   |
+|                  Model: Getter, Setter                  |
+|                  Year: Getter, Setter                   |
+|                 Mileage: Getter, Setter                 |
+|---------------------------------------------------------|
+
+* Subclasses
+|---------------------------|
+|       Car : Vehicle       |
+|            <c>            |
+|---------------------------|
+|      _numDoors: int       |
+|---------------------------|
+| NumDoors: Getter, Setter  |
+|---------------------------|
+
+|---------------------------|
+|      Truck : Vehicle      |
+|            <c>            |
+|---------------------------|
+|      _numDoors: int       |
+|    _truckType: string     |
+|---------------------------|
+| NumDoors: Getter, Setter  |
+| TruckType: Getter, Setter |
+|---------------------------|
+
+|-------------------------------|
+|         SUV : Vehicle         |
+|              <c>              |
+|-------------------------------|
+|        _numDoors: int         |
+|      _numPassengers: int      |
+|-------------------------------|
+|   NumDoors: Getter, Setter    |
+| NumPassengers: Getter, Setter |
+|-------------------------------|
+
+* Program
+
+|-------------|
+|   Program   |
+|     <c>     |
+|-------------|
+| Main method |
+|-------------|
+
+* Description:
+For this third program we further extend our vehicle program. Now we figure out the inheritance. what does each sub class get from the vehicle class? We should build up our database for our Fictional dealership.
